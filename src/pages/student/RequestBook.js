@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import API from "../../services/api";
 import StudentLayout from "./StudentLayout";
-import { RefreshCw, BookOpen, AlertCircle } from "lucide-react";
+import { BookOpen } from "lucide-react";
 
 export default function RequestBook() {
   const [books, setBooks] = useState([]);

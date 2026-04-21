@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import API from "../../services/api";
 import AdminLayout from "./AdminLayout";
-import { RefreshCw, BookOpen, AlertCircle, Plus, Minus } from "lucide-react";
+import { RefreshCw, BookOpen, Plus, Minus } from "lucide-react";
 
 export default function AdminAllBooks() {
   const [books, setBooks] = useState([]);

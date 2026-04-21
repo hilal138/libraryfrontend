@@ -1,10 +1,8 @@
 import { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 import API from "../services/api";
 import { Eye, EyeOff, User, Mail, Lock, Phone, BookOpen, ArrowRight, CheckCircle } from "lucide-react";
 
 export default function Register() {
-  const navigate = useNavigate();
   const [form, setForm] = useState({
     name: "",
     email: "",

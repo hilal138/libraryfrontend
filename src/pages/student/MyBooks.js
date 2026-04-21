@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import API from "../../services/api";
 import StudentLayout from "./StudentLayout";
-import { RefreshCw, BookOpen, Clock, AlertTriangle } from "lucide-react";
+import { RefreshCw, BookOpen, Clock } from "lucide-react";
 
 export default function MyBooks() {
   const [books, setBooks] = useState([]);
@@ -10,7 +10,7 @@ export default function MyBooks() {
 
   useEffect(() => {
     fetchData();
-  }, [user._id]);
+  }, []);
 
   const fetchData = async () => {
     try {

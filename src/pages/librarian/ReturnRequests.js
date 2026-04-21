@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import API from "../../services/api";
 import LibrarianLayout from "./LibrarianLayout";
-import { RefreshCw, CheckCircle, XCircle, Clock, AlertCircle } from "lucide-react";
+import { RefreshCw, CheckCircle, XCircle, Clock } from "lucide-react";
 
 export default function ReturnRequests() {
   const [requests, setRequests] = useState([]);

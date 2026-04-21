@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import API from "../../services/api";
 import LibrarianLayout from "./LibrarianLayout";
-import { Plus, Minus, RefreshCw, BookOpen, AlertCircle } from "lucide-react";
+import { Plus, Minus, RefreshCw, BookOpen } from "lucide-react";
 
 export default function AllBooks() {
   const [books, setBooks] = useState([]);

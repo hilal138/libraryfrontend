@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { BookOpen, Landmark, Users, Shield, ArrowRight, Library as LibraryIcon, Star, GraduationCap } from "lucide-react";
+import { BookOpen, Landmark, Users, Shield, ArrowRight, Library as LibraryIcon, Star } from "lucide-react";
 
 export default function Home() {
   const navigate = useNavigate();

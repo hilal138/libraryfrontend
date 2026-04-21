@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import API from "../../services/api";
 import AdminLayout from "./AdminLayout";
-import { RefreshCw, Users, GraduationCap, BookOpen } from "lucide-react";
+import { RefreshCw, Users, GraduationCap } from "lucide-react";
 
 export default function AllStudents() {
   const [students, setStudents] = useState([]);

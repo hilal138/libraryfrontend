@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import API from "../../services/api";
 import AdminLayout from "./AdminLayout";
-import { RefreshCw, BookOpen, Calendar, Clock, AlertCircle } from "lucide-react";
+import { RefreshCw, BookOpen, Calendar, Clock } from "lucide-react";
 
 export default function AdminIssuedBooks() {
   const [data, setData] = useState([]);
